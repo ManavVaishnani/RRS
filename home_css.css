@@ -281,20 +281,28 @@
   font-size: 20px;
   width: 300px;
 }
-.container__main .main_book .main_content button{
+.container__main .main_book .main_content button{ /* Swap Button */
   border-radius: 5px;
   transform: rotate(90deg);
   float: left;
   height: auto;
   margin-left: 46%;
 }
-.container__main .main_book .main_content input[type=date],select{
-    margin-top: 30px;
+.container__main .main_book .main_content input[type=date],select{ /* Small Date Selector Button */
+  margin-top: 30px;
 }
-.container__main .main_book .main_content input[type=submit]{
+.container__main .main_book .main_content input[type=submit]{ /* Search Button */
   
   height: 30px;
   width: auto;
   float: right;
-  margin-right: 40%;
+  margin-right: 50%;
+}
+
+.placeholder input[type="text"]{ /* manages placeholder texts */
+  text-align: center;
+}
+
+.sub_inputs{ /* manages all input boxes */
+  margin-left:68px;
 }
